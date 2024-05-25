@@ -1,0 +1,10 @@
+1.前端传参怎么映射到后端变量上
+2.Serializable  toString()
+
+Java项目启动过程
+jvm实例，tomcat容器，spring容器，在内存中的关系
+main函数是 java se 程序的入口，而 java ee 程序的入口其实由容器帮我们实现。
+Java中为什么需要main方法？
+
+
+研究控制台输出日志

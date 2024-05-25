@@ -1,0 +1,27 @@
+
+==============================================
+此处，我们再把刚才说到的各种组件总结一遍：
+
+zabbix agent：部署在被监控主机上，负责被监控主机的数据，并将数据发送给zabbix server。
+
+zabbix server:负责接收agent发送的报告信息，并且负责组织配置信息、统计信息、操作数据等。
+
+zabbix database：用于存储所有zabbix的配置信息、监控数据的数据库。
+
+zabbix web：zabbix的web界面，管理员通过web界面管理zabbix配置以及查看zabbix相关监控信息，可以单独部署在独立的服务器上。
+
+zabbix proxy：可选组件，用于分布式监控环境中，zabbix proxy代表server端，完成局部区域内的信息收集，最终统一发往server端。
+
+ 
+
+了解完了zabbix的几个核心组件，我们再来聊聊zabbix的工作模式。
+
+我们知道，agent端会将采集完的数据主动发送给server端，这种模式我们称之为主动模式，即对于agent端来说是主动的。
+
+其实，agent端也可以不主动发送数据，而是等待server过来拉取数据，这种模式我们称之为被动模式。
+
+不管是主动模式还是被动模式，都是对于agent端来说的，而且，主动模式与被动模式可以同时存在，并不冲突。
+
+管理员可以在agent端使用一个名为zabbix_sender的工具，测试是否能够向server端发送数据。
+
+管理员可以在server端使用一个名为zabbix_get的工具，测试是否能够从agent端拉取数据。

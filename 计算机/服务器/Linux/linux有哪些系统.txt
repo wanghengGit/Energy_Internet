@@ -1,0 +1,1 @@
+linux系统主要有以下几种：1. Debian；2. Gentoo；3. Ubuntu；4. Damn Vulnerable Linux；5. 红帽企业级Linux；6. CentOS；7. Fedora；8. Kali Linux；9. Arch Linux；10. OpenSuse等。

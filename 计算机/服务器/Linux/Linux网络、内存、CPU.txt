@@ -1,0 +1,61 @@
+=========================================
+1.安装Linux虚拟机
+
+安装net工具
+yum  install net-tools
+
+先修改 ifcfg-eth0 类似的文件（各个机器文件名不一样），用 vi 编辑一下，把ONBOOT=no，改为ONBOOT=yes
+cd /etc/sysconfig/network-scripts/
+
+service network restart
+
+
+设置yum源
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+
+
+=============Linux查看网络带宽====================
+1. nload 查看
+
+wget http://www.roland-riegel.de/nload/nload-0.7.4.tar.gz  下载到本地
+
+
+解压文件  tar zxvf nload-0.7.4.tar.gz
+
+cd nload-0.7.4
+
+./configure
+
+make
+
+make install
+
+# 查看所有网卡实时网速
+sudo nload -m 
+
+# 查看指定网卡实时网速
+sudo nload eth0 -m
+
+2. 通过 ifconfig 实时查看
+
+watch -n 1 ifconfig
+
+ifconfig 实时查看效果
+RX: 接收流量
+TX: 发送流量
+计算方法： (KB = 数值/1000) (MB = 数值/100000)
+退出查看： 按 ctrl+c 键
+
+-----------------
+yum install gcc-c++
+yum install -y ncurses-devel
+
+===========================================
+
+
+
+
+
+
+

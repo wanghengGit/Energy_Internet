@@ -1,0 +1,58 @@
+使用nginx在同一端口下部署多个前端项目总结
+将打包后的前端项目分别放在同一工作目录下的不同文件夹中，目录结构如下图
+
+配置 nginx.conf 文件
+nginx.conf 里 server 配置如下：
+
+    server {
+        listen       8080;
+        server_name  localhost;
+ 
+        #charset koi8-r;
+ 
+        #access_log  logs/host.access.log  main;
+ 
+        location / {
+            root   D:/workspace;
+            index  index.html index.htm;
+        }
+ 
+        location /project1 {
+            alias D:/workspace/project1/dist;
+            try_files $uri $uri/ /project1/dist/index.html;
+	        index  index.html index.htm;
+        }
+ 
+        location /project2 {
+            alias D:/workspace/project2/dist;
+            try_files $uri $uri/ /project2/dist/index.html;
+	        index  index.html index.htm;
+        }
+ 
+        location /project3 {
+            alias D:/workspace/project3;
+            try_files $uri $uri/ /project3/index.html;
+	        index  index.html index.htm;
+        }
+ 
+        location @router {
+            rewrite ^.*$ /index.html last;
+        }
+ 
+        location /api {
+           proxy_pass   http://127.0.0.1:53301/api;
+        }
+        
+        location /prod-api {
+           proxy_pass   http://127.0.0.1:53303/prod-api;
+        }
+ 
+        #error_page  404              /404.html;
+    }
+
+
+重启 nginx 服务 
+访问项目
+浏览器地址栏输入：localhost:8080/project1、localhost:8080/project2、localhost:8080/project3，即可访问对应的项目。
+
+

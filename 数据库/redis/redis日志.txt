@@ -1,0 +1,42 @@
+=====================================================
+redis日志分为4个级别
+
+Redis4默认的设置为notice，开发测试阶段可以用debug（日志内容较多一般不建议使用），生产模式一般选用notice
+
+1. debug：会打印出很多信息，适用于开发和测试阶段
+
+2. verbose（冗长的）：包含很多不太有用的信息，但比debug要清爽一些
+
+3. notice：适用于生产模式
+
+4. warning : 警告信息
+
+=====================================================
+按时间生成redis日志
+loglevel notice
+
+logfile "/logs/redis.log"
+
+
+重启redis后编写生成日志的脚本redis_log.sh
+
+
+#!/bin/bash
+
+cd /usr/local/redis/logs/
+if [ ! -d "`date +%Y-%m`" ];then
+	mkdir  "`date +%Y-%m`"
+fi
+mv -f /usr/local/redis/logs/redis.log  /usr/local/redis/logs/"`date +%Y-%m`"/`date +%Y-%m-%d`.log
+
+然后是开启定时任务
+crontab -e
+0 0 * * *  /root/redis-5.0.4/redis_log.sh  >>  /root/redis-5.0.4/redis_log.log 2>&1
+
+
+
+
+
+
+
+

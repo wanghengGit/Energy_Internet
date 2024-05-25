@@ -1,0 +1,16 @@
+============zip,rar,gz解压缩=============
+
+========zip==============================
+liunx服务器上默认没有安装zip命令，所以使用时需安装：
+apt-get install zip 或  yum install zip
+
+linux安装unzip命令：
+apt-get install unzip 或  yum install unzip
+
+实例：压缩服务器上当前目录的内容为xxx.zip文件
+
+zip -r xxx.zip ./*
+
+解压zip文件到当前目录
+
+unzip filename.zip

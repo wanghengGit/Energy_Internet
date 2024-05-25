@@ -1,0 +1,15 @@
+
+
+springboot中的logback-spring.xml与application.properties加载顺序
+所以要配置logback-spring.xml，spring boot会默认加载此文件，为什么不配置logback.xml,因为logback.xml会先application.properties加载，
+而logback-spring.xml会后于application.properties加载，这样我们在application.properties文中设置日志文件名称和文件路径才能生效。
+
+
+
+几种常见的日志
+Log4j：是最早的日志框架，是apach旗下的，可以单独使用，也可配合日志框架JCL使用；
+Log4j2：apach旗下的关于log4j的升级版；
+Logback：是基于slf4j接口实现的一套日志框架组件；（Logback是由log4j创始人设计的又一个开源日志组件。）
+JUL(java utillog)：仿log4j实现的日志框架，是sun旗下的，(也就是在我们普遍使用的jdk中)；
+Commons loggin：是一套日志接口（apache）；
+

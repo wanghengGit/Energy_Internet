@@ -1,0 +1,31 @@
+=================================
+加入服务
+ vi /lib/systemd/system/redis.service 
+
+$ vi /lib/systemd/system/redis.service 
+
+加入下面内容
+
+[Unit]
+Description=redis
+After=network.target
+
+[Service]
+Type=forking
+PIDFile=/var/run/redis_6379.pid
+ExecStart=/root/redis-5.0.4/src/redis-server  /root/redis-5.0.4/redis.conf
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
+
+
+保存并退出
+
+$ systemctl enable redis.service //加入开机启动
+
+$ systemctl start redis //开启redis服务
+
+$ systemctl status redis //查看redis运行状态

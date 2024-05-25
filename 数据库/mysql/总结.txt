@@ -1,0 +1,31 @@
+======================================================
+查看binlog功能是否开启
+show variables like '%bin%'
+
+查看data路径
+show variables like '%datadir%';
+
+======================================================
+查询所有数据库占用磁盘空间大小
+select
+TABLE_SCHEMA,
+concat(truncate(sum(data_length)/1024/1024,2),' MB') as data_size,
+concat(truncate(sum(index_length)/1024/1024,2),'MB') as index_size
+from information_schema.tables
+group by TABLE_SCHEMA
+ORDER BY data_size desc;
+
+
+=================查询数据库最新一条记录====================
+select * from fault_apply_repair where updated in (
+select max(updated) as updated from fault_apply_repair  
+
+where equipment_id in (643793,67115,86231)
+
+group by equipment_id order by updated desc
+)
+
+
+=============查询表里重复的记录==============================
+SELECT * FROM Person GROUP BY Email HAVING count( * ) > 1
+

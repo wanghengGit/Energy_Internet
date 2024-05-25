@@ -1,0 +1,9 @@
+redisTemplate 如何释放连接？
+==================================================================
+Jedis和RedisTemplate有何区别？
+
+     Jedis是Redis官方推荐的面向java的操作Redis的客户端，而RedisTemplate是SpringDataRedis中对JedisApi的高度封装，
+SpringDataRedis相对于Jedis来说可以方便的更换Redis的java客户端，比Jedis多了自动管理连接池的特性，方便与其他
+spring框架进行搭配使用如：SpringCache
+
+

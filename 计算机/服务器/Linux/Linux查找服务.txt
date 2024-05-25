@@ -1,0 +1,39 @@
+
+===============nginx =============================
+Linux 查看 nginx 安装目录和配置文件路径
+
+一、查看 nginx 安装目录
+
+ps -ef | grep nginx
+ 
+
+二、查看配置文件 nginx.conf 路径 
+
+nginx -t
+这条命令也可以用于检查配置文件是否正确。
+
+
+当然也可以使用 find 命令进行文件查找
+
+# 从 / 根目录下查找文件名为 nginx.conf 的文件
+find / -name nginx.conf
+
+
+====================================
+linux如何查看端口占用？
+
+常用命令：
+
+1，lsof -i:端口号
+
+2，netstat -tunlp|grep 端口号
+
+这两个命令都可以查看端口被什么进程占用
+
+
+linux查看进程占用端口
+
+1，使用 ps -ef | grep *** 定位 PID
+2，使用 netstat -nltp | grep PID 查看进程占用的所有端口
+
+

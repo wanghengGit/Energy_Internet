@@ -1,0 +1,157 @@
+
+在Linux客户端输入“hbase shell”命令将进入Hbase Shell
+cd /usr/local/hbase
+
+bin/hbase shell
+
+==============================================
+命令	解释
+status	查看集群状态
+version	查看当前版本
+whoami	查看当前用户
+
+scan "jy_rd_G32050001", {'LIMIT' => 2}
+
+scan "jy_rd_G31010001", {'LIMIT' => 2}
+
+scan "jy_rd_G44030001", {'LIMIT' => 2}
+
+scan "jy_rd_G44030001",{STARTROW=>'1',STOPROW=>'13'}
+
+scan "mc_rd_11010001", {'LIMIT' => 2}
+
+scan "jy_rd_G44030001",{STARTROW=>'sn01wgj019223370376570775807'}
+
+truncate "jy_rd_G32050001"
+
+truncate "jy_rd_G31010001"
+
+truncate "jy_rd_G44030001"
+
+get "jy_rd_G44030001", "sn01wgj019223372035194500807"
+
+get "jy_rd_G44030001", "sn01wgj019223372035194500807","d:095_1925"
+
+get "jy_rd_G32050001", "wjxc01wgj011660547700000"
+
+
+scan "jy_rd_32000422", {'LIMIT' => 2}
+
+scan "mc_rd_32000422", {'LIMIT' => 2}
+
+scan 'mc_rd_32000422',{COLUMNS=>['d:a'],LIMIT => 5}
+
+----------------------
+32000422
+
+scan "mc_rd_32000422", {'LIMIT' => 2}
+
+=====集群启动和停止操作===============================
+
+先kill了所有进程
+
+启动
+namenode
+$HADOOP PREFIX/sbin/hadoop-daemon.sh --script hdfs start namenode
+datanode
+$HADOOP_PREFIX/sbin/hadoop-daemons.sh --script hdfs start datanode
+
+之后
+启动hbase
+只要在master节点(我们这是nn01)敲命令就行, 会都叫起来
+./bin/start-hbase.sh
+会依次启动 3个zk, master, 2个server
+
+关闭
+也是只要在master节点
+./bin/stop-hbase.sh
+
+
+==============================================
+
+创建表
+create 'student','info','level'
+
+
+命令：put ‘表名’,‘Rowkey’,‘列族:列’,'value’
+添加2条数据，rowkey分别为：jack和tom
+
+put 'student’,'jack’,'info:sex’,'man’
+put 'student’,'jack’,'info:age’,'22’
+put 'student’,'jack’,'level:class’,'A’
+put 'student’,'tom’,'info:sex’,'woman’
+put 'student’,'tom’,'info:age’,'20’
+put 'student’,'tom’,'level:class’,'B'
+
+
+查看数据
+在查看数据的时候有这么几种用法
+命令：get ‘表名’,'Rowkey’
+命令：get ‘表名’,‘Rowkey’,'列族’
+命令：get ‘表名’,‘Rowkey’,‘列族:列’
+
+
+
+
+导出
+hbase org.apache.hadoop.hbase.mapreduce.Export "要导出的表名称" file:///home/my_hbase_data
+
+./bin/hbase org.apache.hadoop.hbase.mapreduce.Export "student" file:///mnt/hbase_bak/d
+
+导入
+hbase org.apache.hadoop.hbase.mapreduce.Import "要导入的表名称" file:///home/my_hbase_data # file://后面接绝对路径
+
+
+=====================================
+查看snapshot
+list_snapshots
+
+
+snapshot 'mc_rd_3333444', 'snapshotName3333444'
+
+snapshot 'jy_rd_32000422', 'snapshotName32000422'
+
+恢复到新表
+clone_snapshot 'snapshotName3333444','table_name_new'
+
+基于快照将数据导出到另外一个集群中的本地文件中
+bin/hbase org.apache.hadoop.hbase.snapshot.ExportSnapshot -snapshot 'snapshotName3333444' -copy-to file:/mnt/soft -mappers 16
+
+bin/hbase org.apache.hadoop.hbase.snapshot.ExportSnapshot -snapshot 'snapshotName32000422' -copy-to file:/mnt/soft -mappers 16
+
+==========Snapshot方式==============
+
+
+#快照
+hbase shell
+> flush 'table_name'
+> snapshot 'table_name', 'table_name_snapshot'
+> list_snapshots
+> delete_snapshot 'table_name_snapshot'
+
+#迁移快照
+hbase org.apache.hadoop.hbase.snapshot.ExportSnapshot \
+-Dsnapshot.export.skip.tmp=true \  
+#导出大表时需加上，不加的话默认快照引用会先写入/hbase/.hbase-snapshot/.tmp下，等hfile拷贝完成后正式写入/hbase/.hbase-snapshot下，但在拷贝过程中，snapshot是不是被hfilecleaner识别，超时后会删除archive下的文件，小表没问题，大表会报错，filenotfound
+-Dmapreduce.map.memory.mb=2048
+#指定每个map的内存
+-snapshot table_name_snapshot \
+-copy-from hdfs://ip:8020/hbase-2 \
+-copy-to hdfs://ip:8020/hbase \
+-mappers 16 \
+-bandwidth 100 \
+-overwrite
+
+3. 恢复（在cluster02进行）
+方式1：会覆盖原表device
+hbase shell
+> disable device
+> restore_snapshot 'device_snapshot01'
+> enable device
+方式2：恢复到新表
+> clone_snapshot 'table_name_snapshot','table_name_new'
+
+
+
+
+

@@ -1,0 +1,31 @@
+hbase可视化工具-squirrel
+安装
+下载地址http://www.squirrelsql.org/
+
+http://archive.apache.org/dist/phoenix/
+
+配置
+配置host
+本地访问hbase，需要知道hbase节点的hostname，然后在本地配置
+win7下修改C:\Windows\System32\drivers\etc\hosts
+添加下面的内容
+
+192.168.1.51 nn01
+192.168.1.52 dn01
+192.168.1.53 dn02
+
+以管理员权限打开cmd，配置下面路由，复制粘贴即可
+
+route -p add 192.168.1.0 mask 255.255.255.0 192.168.1.162
+
+配置driver
+1.点击driver
+2.新建
+3.配置如图，复制内容如下
+
+phoenix
+jdbc:phoenix:192.168.1.51,192.168.1.52,192.168.1.53:2181
+org.apache.phoenix.jdbc.PhoenixDriver
+
+
+配置alias
