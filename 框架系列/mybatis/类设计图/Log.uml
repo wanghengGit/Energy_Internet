@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.ibatis.logging.Log</OriginalElement>
+  <nodes>
+    <node x="-144.0" y="166.0">org.apache.ibatis.logging.log4j2.Log4j2Impl</node>
+    <node x="389.0" y="166.0">org.apache.ibatis.logging.jdk14.Jdk14LoggingImpl</node>
+    <node x="835.5" y="166.0">org.apache.ibatis.logging.log4j2.Log4j2AbstractLoggerImpl</node>
+    <node x="1140.0" y="166.0">org.apache.ibatis.logging.slf4j.Slf4jLocationAwareLoggerImpl</node>
+    <node x="184.0" y="106.0">org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl</node>
+    <node x="541.0" y="106.0">org.apache.ibatis.logging.log4j.Log4jImpl</node>
+    <node x="-42.0" y="106.0">org.apache.ibatis.logging.slf4j.Slf4jLoggerImpl</node>
+    <node x="-116.0" y="-14.0">org.apache.ibatis.logging.Log</node>
+    <node x="708.5" y="106.0">org.apache.ibatis.logging.log4j2.Log4j2LoggerImpl</node>
+    <node x="1055.5" y="106.0">org.apache.ibatis.logging.stdout.StdOutImpl</node>
+    <node x="80.5" y="166.0">org.apache.ibatis.logging.nologging.NoLoggingImpl</node>
+    <node x="625.0" y="166.0">org.apache.ibatis.logging.slf4j.Slf4jImpl</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.ibatis.logging.log4j2.Log4j2Impl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.slf4j.Slf4jImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="684.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.slf4j.Slf4jLocationAwareLoggerImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1284.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.log4j.Log4jImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="604.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.stdout.StdOutImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1124.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.commons.JakartaCommonsLoggingImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="324.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.log4j2.Log4j2AbstractLoggerImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="964.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.jdk14.Jdk14LoggingImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="484.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.log4j2.Log4j2LoggerImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="804.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.nologging.NoLoggingImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="164.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.logging.slf4j.Slf4jLoggerImpl" target="org.apache.ibatis.logging.Log" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="44.0" y="80.0" />
+      <point x="-76.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6136934673366834" showDependencies="false" x="652.0" y="100.0" />
+  <SelectedNodes>
+    <node>org.apache.ibatis.logging.Log</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
