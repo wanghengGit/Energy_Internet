@@ -18,3 +18,7 @@ Energy_Internet  能源互联网
 ## 博客
 https://blog.csdn.net/wanghengwhwh?type=blog
 
+## 文档资料
+
+https://gitee.com/wangkit/knowledge-base
+

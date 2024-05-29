@@ -152,3 +152,28 @@ $ git branch -d [branch-name]
 $ git push origin --delete [branch-name]
  
 $ git branch -dr [remote/branch]
+
+======================================
+
+fork的仓库如何同步主仓库
+# 1. 克隆你的fork仓库（如果你还没有克隆）
+git clone <your-fork-repository-url>
+ 
+# 2. 进入仓库目录
+cd <repository-name>
+ 
+# 3. 添加主仓库作为一个新的远程仓库（如果你还没有添加）
+git remote add upstream <main-repository-url>
+ 
+# 4. 获取主仓库的最新更改
+git fetch upstream
+ 
+# 5. 切换到你想要合并的分支（通常是main或master分支）
+git checkout main  # 或者 git checkout master，取决于主仓库使用的是哪个分支名
+ 
+# 6. 合并主仓库的更改到你的分支
+git merge upstream/main  # 或者 git merge upstream/master
+ 
+# 7. 如果一切顺利，你的分支将会有主仓库的最新更改。你可以根据需要推送这些更改到你的fork。
+git push origin main  # 或者 git push origin master
+
