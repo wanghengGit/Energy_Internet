@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.apache.ibatis.session.SqlSessionFactory</OriginalElement>
+  <nodes>
+    <node x="-125.5" y="166.0">org.apache.ibatis.session.defaults.DefaultSqlSessionFactory</node>
+    <node x="58.0" y="106.0">org.apache.ibatis.session.SqlSessionManager</node>
+    <node x="-97.5" y="-14.0">org.apache.ibatis.session.SqlSessionFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.apache.ibatis.session.SqlSessionManager" target="org.apache.ibatis.session.SqlSessionFactory" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="160.0" y="80.0" />
+      <point x="0.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.apache.ibatis.session.defaults.DefaultSqlSessionFactory" target="org.apache.ibatis.session.SqlSessionFactory" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="78.0" y="100.0" />
+  <SelectedNodes>
+    <node>org.apache.ibatis.session.defaults.DefaultSqlSessionFactory</node>
+    <node>org.apache.ibatis.session.SqlSessionManager</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

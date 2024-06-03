@@ -1,7 +1,7 @@
 一、mybatis
 Builder模式:例如SqlSessionFactoryBuilder、XMLConfigBuilder、XMLMapperBuilder、XMLStatementBuilder、CacheBuilder；
 
-工厂模式:例如SqlSessionFactory、ObjectFactory、MapperProxyFactory；
+工厂模式:例如SqlSessionFactory、ObjectFactory、MapperProxyFactory、LogFactory；
 
 单例模式:例如ErrorContext和LogFactory；
 
