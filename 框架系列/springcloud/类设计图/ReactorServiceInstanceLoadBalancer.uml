@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.cloud.loadbalancer.core.ReactorServiceInstanceLoadBalancer</OriginalElement>
+  <nodes>
+    <node x="-198.0" y="286.0">org.springframework.cloud.loadbalancer.core.RandomLoadBalancer</node>
+    <node x="-198.0" y="106.0">org.springframework.cloud.loadbalancer.core.ReactorServiceInstanceLoadBalancer</node>
+    <node x="74.5" y="286.0">org.springframework.cloud.loadbalancer.blocking.client.DiscoveryClientBasedReactiveLoadBalancer</node>
+    <node x="-73.0" y="226.0">org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer</node>
+    <node x="-153.0" y="-14.0">org.springframework.cloud.loadbalancer.core.ReactorLoadBalancer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.cloud.loadbalancer.blocking.client.DiscoveryClientBasedReactiveLoadBalancer" target="org.springframework.cloud.loadbalancer.core.ReactorServiceInstanceLoadBalancer" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="272.0" y="200.0" />
+      <point x="-28.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.cloud.loadbalancer.core.RoundRobinLoadBalancer" target="org.springframework.cloud.loadbalancer.core.ReactorServiceInstanceLoadBalancer" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="52.0" y="200.0" />
+      <point x="-28.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.cloud.loadbalancer.core.ReactorServiceInstanceLoadBalancer" target="org.springframework.cloud.loadbalancer.core.ReactorLoadBalancer" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.cloud.loadbalancer.core.RandomLoadBalancer" target="org.springframework.cloud.loadbalancer.core.ReactorServiceInstanceLoadBalancer" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-88.0" y="200.0" />
+      <point x="-28.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.3517441860465116" showDependencies="false" x="143.0" y="159.99999999999994" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

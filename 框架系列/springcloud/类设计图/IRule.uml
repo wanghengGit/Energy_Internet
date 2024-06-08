@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.netflix.loadbalancer.IRule</OriginalElement>
+  <nodes>
+    <node x="-39.0" y="406.0">com.netflix.loadbalancer.BestAvailableRule</node>
+    <node x="361.5" y="226.0">com.netflix.loadbalancer.RandomRule</node>
+    <node x="272.5" y="286.0">com.netflix.loadbalancer.RetryRule</node>
+    <node x="126.5" y="226.0">com.netflix.loadbalancer.RoundRobinRule</node>
+    <node x="-152.5" y="286.0">com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule</node>
+    <node x="-167.5" y="466.0">com.netflix.loadbalancer.PredicateBasedRule</node>
+    <node x="239.5" y="406.0">com.netflix.loadbalancer.WeightedResponseTimeRule</node>
+    <node x="79.5" y="466.0">com.netflix.loadbalancer.ResponseTimeWeightedRule</node>
+    <node x="-29.0" y="-14.0">com.netflix.loadbalancer.IRule</node>
+    <node x="-167.0" y="646.0">com.netflix.loadbalancer.ZoneAvoidanceRule</node>
+    <node x="-40.0" y="586.0">com.netflix.loadbalancer.AvailabilityFilteringRule</node>
+    <node x="-113.0" y="106.0">com.netflix.loadbalancer.AbstractLoadBalancerRule</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.netflix.loadbalancer.AbstractLoadBalancerRule" target="com.netflix.loadbalancer.IRule" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.PredicateBasedRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-65.0" y="380.0" />
+      <point x="15.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.RoundRobinRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="215.0" y="200.0" />
+      <point x="15.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.ResponseTimeWeightedRule" target="com.netflix.loadbalancer.RoundRobinRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.RandomRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="435.0" y="200.0" />
+      <point x="15.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.WeightedResponseTimeRule" target="com.netflix.loadbalancer.RoundRobinRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="375.0" y="380.0" />
+      <point x="215.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.ZoneAvoidanceRule" target="com.netflix.loadbalancer.PredicateBasedRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.RetryRule" target="com.netflix.loadbalancer.AbstractLoadBalancerRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="335.0" y="200.0" />
+      <point x="15.0" y="200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.BestAvailableRule" target="com.netflix.loadbalancer.ClientConfigEnabledRoundRobinRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="55.0" y="380.0" />
+      <point x="15.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.netflix.loadbalancer.AvailabilityFilteringRule" target="com.netflix.loadbalancer.PredicateBasedRule" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="75.0" y="560.0" />
+      <point x="-65.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="false" x="181.49999999999994" y="335.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
