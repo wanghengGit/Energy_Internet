@@ -1,0 +1,35 @@
+@startuml
+
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class BlockingCache
+interface Cache << interface >>
+class CustomCache
+class CustomCache
+class FifoCache
+class LoggingCache
+class LruCache
+class PerpetualCache
+class ScheduledCache
+class SerializedCache
+class SoftCache
+class SynchronizedCache
+class TransactionalCache
+class WeakCache
+
+BlockingCache       -[#008200,dashed]-^  Cache              
+CustomCache         -[#000082,plain]-^  PerpetualCache     
+CustomCache         -[#000082,plain]-^  PerpetualCache     
+FifoCache           -[#008200,dashed]-^  Cache              
+LoggingCache        -[#008200,dashed]-^  Cache              
+LruCache            -[#008200,dashed]-^  Cache              
+PerpetualCache      -[#008200,dashed]-^  Cache              
+ScheduledCache      -[#008200,dashed]-^  Cache              
+SerializedCache     -[#008200,dashed]-^  Cache              
+SoftCache           -[#008200,dashed]-^  Cache              
+SynchronizedCache   -[#008200,dashed]-^  Cache              
+TransactionalCache  -[#008200,dashed]-^  Cache              
+WeakCache           -[#008200,dashed]-^  Cache              
+@enduml

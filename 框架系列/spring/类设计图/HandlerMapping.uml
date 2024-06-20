@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.web.servlet.HandlerMapping</OriginalElement>
+  <nodes>
+    <node x="440.5" y="166.0">org.springframework.web.servlet.handler.MatchableHandlerMapping</node>
+    <node x="552.0" y="346.0">org.springframework.web.servlet.function.support.RouterFunctionMapping</node>
+    <node x="-151.5" y="706.0">org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping</node>
+    <node x="521.0" y="-14.0">org.springframework.web.servlet.HandlerMapping</node>
+    <node x="237.0" y="646.0">org.springframework.web.socket.server.support.WebSocketHandlerMapping</node>
+    <node x="-185.0" y="346.0">org.springframework.web.servlet.handler.PathPatternMatchableHandlerMapping</node>
+    <node x="762.0" y="286.0">org.springframework.web.servlet.handler.AbstractHandlerMethodMapping</node>
+    <node x="57.0" y="286.0">org.springframework.web.servlet.handler.AbstractUrlHandlerMapping</node>
+    <node x="456.0" y="706.0">org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping</node>
+    <node x="608.0" y="106.0">org.springframework.web.servlet.handler.AbstractHandlerMapping</node>
+    <node x="561.0" y="526.0">org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping</node>
+    <node x="244.0" y="526.0">org.springframework.web.servlet.handler.SimpleUrlHandlerMapping</node>
+    <node x="-180.5" y="526.0">org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" target="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping" relationship="GENERALIZATION">
+      <point x="77.0" y="-14.0" />
+      <point x="687.0" y="680.0" />
+      <point x="730.0" y="680.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.AbstractUrlHandlerMapping" target="org.springframework.web.servlet.handler.AbstractHandlerMapping" relationship="GENERALIZATION">
+      <point x="66.5" y="-14.0" />
+      <point x="256.5" y="240.0" />
+      <point x="730.0" y="240.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping" target="org.springframework.web.servlet.handler.AbstractHandlerMethodMapping" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="730.0" y="500.0" />
+      <point x="930.0" y="500.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.AbstractHandlerMapping" target="org.springframework.web.servlet.HandlerMapping" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="730.0" y="80.0" />
+      <point x="654.5" y="80.0" />
+      <point x="44.5" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.AbstractUrlHandlerMapping" target="org.springframework.web.servlet.handler.MatchableHandlerMapping" relationship="REALIZATION">
+      <point x="-66.5" y="-14.0" />
+      <point x="123.5" y="260.0" />
+      <point x="570.0" y="260.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.PathPatternMatchableHandlerMapping" target="org.springframework.web.servlet.handler.MatchableHandlerMapping" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-10.0" y="260.0" />
+      <point x="570.0" y="260.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.MatchableHandlerMapping" target="org.springframework.web.servlet.HandlerMapping" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="570.0" y="140.0" />
+      <point x="565.5" y="140.0" />
+      <point x="-44.5" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.socket.server.support.WebSocketHandlerMapping" target="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.AbstractHandlerMethodMapping" target="org.springframework.web.servlet.handler.AbstractHandlerMapping" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="930.0" y="240.0" />
+      <point x="730.0" y="240.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping" target="org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.function.support.RouterFunctionMapping" target="org.springframework.web.servlet.handler.MatchableHandlerMapping" relationship="REALIZATION">
+      <point x="-59.0" y="-14.0" />
+      <point x="611.0" y="260.0" />
+      <point x="570.0" y="260.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.AbstractDetectingUrlHandlerMapping" target="org.springframework.web.servlet.handler.AbstractUrlHandlerMapping" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-10.0" y="440.0" />
+      <point x="190.0" y="440.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping" target="org.springframework.web.servlet.handler.AbstractUrlHandlerMapping" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="370.0" y="440.0" />
+      <point x="190.0" y="440.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.function.support.RouterFunctionMapping" target="org.springframework.web.servlet.handler.AbstractHandlerMapping" relationship="GENERALIZATION">
+      <point x="59.0" y="-14.0" />
+      <point x="729.0" y="240.0" />
+      <point x="730.0" y="240.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping" target="org.springframework.web.servlet.handler.MatchableHandlerMapping" relationship="REALIZATION">
+      <point x="-77.0" y="-14.0" />
+      <point x="533.0" y="680.0" />
+      <point x="530.0" y="680.0" />
+      <point x="530.0" y="260.0" />
+      <point x="570.0" y="260.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7313891020721413" showDependencies="false" x="466.5" y="430.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

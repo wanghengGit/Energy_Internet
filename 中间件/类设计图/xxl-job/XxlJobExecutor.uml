@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.xxl.job.core.executor.XxlJobExecutor</OriginalElement>
+  <nodes>
+    <node x="-86.5" y="-14.0">com.xxl.job.core.executor.XxlJobExecutor</node>
+    <node x="-111.5" y="166.0">com.xxl.job.core.executor.impl.XxlJobSpringExecutor</node>
+    <node x="27.5" y="106.0">com.xxl.job.core.executor.impl.XxlJobSimpleExecutor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.xxl.job.core.executor.impl.XxlJobSimpleExecutor" target="com.xxl.job.core.executor.XxlJobExecutor" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="139.0" y="80.0" />
+      <point x="-1.0" y="80.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.xxl.job.core.executor.impl.XxlJobSpringExecutor" target="com.xxl.job.core.executor.XxlJobExecutor" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.5" showDependencies="false" x="79.5" y="100.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
