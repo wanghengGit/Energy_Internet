@@ -1,5 +1,0 @@
-首先可以通过ps命令找到进程id，比如 ps -ef | grep kafka 可以看到kafka这个程序的进程id
-
-现在可以使用如下命令查看：
-
-top -p 2913
