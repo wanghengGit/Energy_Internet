@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Collection</OriginalElement>
+  <nodes>
+    <node x="417.0" y="306.0">com.sun.org.apache.xerces.internal.xs.datatypes.ByteList</node>
+    <node x="193.0" y="566.0">com.sun.org.apache.xerces.internal.impl.xs.util.ObjectListImpl</node>
+    <node x="692.5" y="966.0">com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate</node>
+    <node x="2798.0" y="306.0">com.sun.tools.javac.util.List</node>
+    <node x="3007.0" y="566.0">java.util.concurrent.CopyOnWriteArraySet</node>
+    <node x="3441.0" y="766.0">javax.print.attribute.standard.JobStateReasons</node>
+    <node x="423.0" y="826.0">com.sun.jmx.snmp.daemon.SendQ</node>
+    <node x="576.0" y="506.0">com.sun.org.apache.xerces.internal.impl.xs.util.StringListImpl</node>
+    <node x="434.0" y="106.0">java.util.Collection</node>
+    <node x="579.0" y="1026.0">com.sun.corba.se.impl.ior.IORImpl</node>
+    <node x="105.0" y="826.0">com.sun.jmx.snmp.daemon.WaitQ</node>
+    <node x="403.0" y="966.0">com.sun.corba.se.impl.util.RepositoryIdPool</node>
+    <node x="3597.0" y="566.0">javax.imageio.spi.PartiallyOrderedSet</node>
+    <node x="1249.5" y="826.0">com.sun.corba.se.spi.ior.IdentifiableContainerBase</node>
+    <node x="1314.0" y="506.0">com.sun.tools.javac.model.FilteredMemberList</node>
+    <node x="1638.0" y="506.0">java.util.ArrayList</node>
+    <node x="738.0" y="766.0">com.sun.corba.se.spi.ior.TaggedProfileTemplate</node>
+    <node x="3715.0" y="826.0">java.util.LinkedHashSet</node>
+    <node x="184.5" y="766.0">sun.security.x509.AttributeNameEnumeration</node>
+    <node x="736.5" y="1146.0">com.sun.corba.se.impl.ior.iiop.IIOPProfileTemplateImpl</node>
+    <node x="3498.5" y="506.0">jdk.internal.org.objectweb.asm.tree.analysis.SmallSet</node>
+    <node x="443.5" y="-14.0">java.lang.Iterable</node>
+    <node x="2014.0" y="246.0">com.sun.org.apache.xerces.internal.xs.ShortList</node>
+    <node x="-57.0" y="766.0">com.sun.jmx.snmp.SnmpVarBindList</node>
+    <node x="2561.0" y="566.0">java.util.NavigableSet</node>
+    <node x="2829.5" y="566.0">com.sun.corba.se.impl.orbutil.graph.GraphImpl</node>
+    <node x="1534.0" y="826.0">javax.management.relation.RoleUnresolvedList</node>
+    <node x="3189.0" y="766.0">java.util.RegularEnumSet</node>
+    <node x="721.0" y="566.0">com.sun.org.apache.xerces.internal.impl.dv.util.ByteListImpl</node>
+    <node x="651.0" y="826.0">java.util.Stack</node>
+    <node x="3312.5" y="826.0">java.util.JumboEnumSet</node>
+    <node x="2786.0" y="766.0">java.util.concurrent.ConcurrentSkipListSet</node>
+    <node x="859.0" y="1026.0">com.sun.corba.se.spi.ior.TaggedProfileTemplateBase</node>
+    <node x="1158.0" y="766.0">com.sun.tools.jdi.EventSetImpl</node>
+    <node x="2679.0" y="826.0">com.sun.corba.se.spi.ior.IORTemplate</node>
+    <node x="7.0" y="506.0">java.util.Vector</node>
+    <node x="2282.0" y="246.0">com.sun.org.apache.xerces.internal.xs.XSNamespaceItemList</node>
+    <node x="1697.0" y="766.0">jdk.jshell.DiagList</node>
+    <node x="2554.0" y="306.0">java.util.SortedSet</node>
+    <node x="-125.0" y="826.0">com.sun.corba.se.spi.ior.IOR</node>
+    <node x="-135.0" y="566.0">com.sun.corba.se.spi.ior.IORTemplateList</node>
+    <node x="2623.0" y="966.0">com.sun.corba.se.impl.ior.IORTemplateImpl</node>
+    <node x="2309.0" y="506.0">sun.awt.util.IdentityArrayList</node>
+    <node x="1207.0" y="566.0">com.sun.jmx.remote.internal.ArrayQueue</node>
+    <node x="2967.0" y="306.0">java.util.AbstractSet</node>
+    <node x="1925.0" y="506.0">java.util.AbstractSequentialList</node>
+    <node x="3033.5" y="826.0">java.util.LinkedList</node>
+    <node x="862.5" y="506.0">com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl</node>
+    <node x="1861.0" y="766.0">javax.management.AttributeList</node>
+    <node x="304.0" y="1026.0">com.sun.org.apache.xalan.internal.xsltc.compiler.util.StringStack</node>
+    <node x="2178.0" y="566.0">com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl</node>
+    <node x="944.0" y="826.0">java.util.RandomAccessSubList</node>
+    <node x="1097.0" y="506.0">com.sun.corba.se.impl.ior.FreezableList</node>
+    <node x="1778.0" y="826.0">javax.management.relation.RoleList</node>
+    <node x="746.0" y="306.0">java.util.AbstractList</node>
+    <node x="212.0" y="306.0">com.sun.org.apache.xerces.internal.xs.StringList</node>
+    <node x="2185.5" y="306.0">com.sun.org.apache.xerces.internal.xs.LSInputList</node>
+    <node x="2885.5" y="246.0">com.sun.corba.se.impl.orbutil.graph.Graph</node>
+    <node x="2364.5" y="826.0">sun.awt.util.IdentityLinkedList</node>
+    <node x="1004.0" y="566.0">java.util.SubList</node>
+    <node x="489.0" y="766.0">com.sun.corba.se.impl.ior.IORTemplateListImpl</node>
+    <node x="2582.0" y="766.0">java.util.TreeSet</node>
+    <node x="438.0" y="566.0">com.sun.org.apache.xerces.internal.impl.xs.PSVIErrorList</node>
+    <node x="3218.5" y="506.0">java.util.EnumSet</node>
+    <node x="3360.0" y="566.0">java.util.HashSet</node>
+    <node x="1769.5" y="566.0">com.sun.org.apache.xerces.internal.impl.xs.util.LSInputListImpl</node>
+    <node x="334.0" y="506.0">com.sun.jdi.event.EventSet</node>
+    <node x="1498.0" y="566.0">com.sun.org.apache.xerces.internal.impl.xs.util.ShortListImpl</node>
+    <node x="1414.0" y="766.0">sun.swing.BakedArrayList</node>
+    <node x="498.5" y="246.0">com.sun.org.apache.xerces.internal.xs.XSObjectList</node>
+    <node x="3926.0" y="306.0">java.util.concurrent.CopyOnWriteArrayList</node>
+    <node x="49.0" y="306.0">com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList</node>
+    <node x="2993.0" y="1026.0">sun.net.www.http.KeepAliveStreamCleaner</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="45.75" y="-14.0" />
+      <point x="999.75" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.IORImpl" target="com.sun.corba.se.spi.ior.IdentifiableContainerBase" relationship="GENERALIZATION">
+      <point x="27.5" y="-14.0" />
+      <point x="661.5" y="940.0" />
+      <point x="1374.0" y="940.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.Collection" relationship="REALIZATION">
+      <point x="-33.5" y="-14.0" />
+      <point x="40.5" y="480.0" />
+      <point x="34.0" y="480.0" />
+      <point x="34.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.jmx.snmp.SnmpVarBindList" target="java.util.Vector" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="34.0" y="700.0" />
+      <point x="134.0" y="700.0" />
+      <point x="134.0" y="560.0" />
+      <point x="74.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListSet" target="java.util.NavigableSet" relationship="REALIZATION">
+      <point x="-64.0" y="-14.0" />
+      <point x="2850.0" y="740.0" />
+      <point x="2654.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.jmx.snmp.daemon.WaitQ" target="java.util.Vector" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="154.0" y="700.0" />
+      <point x="134.0" y="700.0" />
+      <point x="134.0" y="560.0" />
+      <point x="74.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.orbutil.graph.GraphImpl" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="32.25" y="-14.0" />
+      <point x="2926.25" y="480.0" />
+      <point x="3054.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.iiop.IIOPProfileTemplateImpl" target="com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate" relationship="REALIZATION">
+      <point x="-58.75" y="-14.0" />
+      <point x="795.25" y="1120.0" />
+      <point x="794.0" y="1120.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.iiop.IIOPProfileTemplateImpl" target="com.sun.corba.se.spi.ior.TaggedProfileTemplateBase" relationship="GENERALIZATION">
+      <point x="58.75" y="-14.0" />
+      <point x="912.75" y="1120.0" />
+      <point x="994.0" y="1120.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="114.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.ShortListImpl" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-38.0" y="-14.0" />
+      <point x="1536.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArraySet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="3134.0" y="480.0" />
+      <point x="3054.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.ShortListImpl" target="com.sun.org.apache.xerces.internal.xs.ShortList" relationship="REALIZATION">
+      <point x="38.0" y="-14.0" />
+      <point x="1612.0" y="420.0" />
+      <point x="2074.0" y="420.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.XSObjectListImpl" target="com.sun.org.apache.xerces.internal.xs.XSObjectList" relationship="REALIZATION">
+      <point x="-45.75" y="-14.0" />
+      <point x="908.25" y="380.0" />
+      <point x="574.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.xs.XSObjectList" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="574.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="33.5" y="-14.0" />
+      <point x="107.5" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.ObjectListImpl" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="40.5" y="-14.0" />
+      <point x="314.5" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.jmx.remote.internal.ArrayQueue" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1294.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.management.relation.RoleList" target="java.util.ArrayList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1834.0" y="740.0" />
+      <point x="1714.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl" target="com.sun.org.apache.xerces.internal.xs.XSNamespaceItemList" relationship="REALIZATION">
+      <point x="38.0" y="-14.0" />
+      <point x="2292.0" y="460.0" />
+      <point x="2394.0" y="460.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.PSVIErrorList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="38.0" y="-14.0" />
+      <point x="552.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.IORTemplateListImpl" target="com.sun.corba.se.impl.ior.FreezableList" relationship="GENERALIZATION">
+      <point x="52.5" y="-14.0" />
+      <point x="646.5" y="720.0" />
+      <point x="1174.0" y="720.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Stack" target="java.util.Vector" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="714.0" y="700.0" />
+      <point x="134.0" y="700.0" />
+      <point x="134.0" y="560.0" />
+      <point x="74.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.ior.TaggedProfileTemplateBase" target="com.sun.corba.se.spi.ior.TaggedProfileTemplate" relationship="REALIZATION">
+      <point x="-67.5" y="-14.0" />
+      <point x="926.5" y="820.0" />
+      <point x="912.0" y="820.0" />
+      <point x="58.0" y="14.0" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.Collection" relationship="REALIZATION">
+      <point x="49.5" y="-14.0" />
+      <point x="3863.5" y="800.0" />
+      <point x="3854.0" y="800.0" />
+      <point x="3854.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="javax.management.relation.RoleUnresolvedList" target="java.util.ArrayList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1634.0" y="740.0" />
+      <point x="1714.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="64.0" y="-14.0" />
+      <point x="2978.0" y="740.0" />
+      <point x="2974.0" y="740.0" />
+      <point x="2974.0" y="480.0" />
+      <point x="3054.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.management.AttributeList" target="java.util.ArrayList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1934.0" y="740.0" />
+      <point x="1714.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.IORImpl" target="com.sun.corba.se.spi.ior.IOR" relationship="REALIZATION">
+      <point x="-27.5" y="-14.0" />
+      <point x="606.5" y="920.0" />
+      <point x="-86.0" y="920.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.tools.javac.model.FilteredMemberList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1414.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="sun.awt.util.IdentityLinkedList" target="java.util.Collection" relationship="REALIZATION">
+      <point x="54.75" y="-14.0" />
+      <point x="2528.75" y="800.0" />
+      <point x="2534.0" y="800.0" />
+      <point x="2534.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.ior.TaggedProfileTemplate" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="854.0" y="660.0" />
+      <point x="174.0" y="660.0" />
+      <point x="174.0" y="440.0" />
+      <point x="354.0" y="440.0" />
+      <point x="354.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.ior.TaggedProfileTemplateBase" target="com.sun.corba.se.spi.ior.IdentifiableContainerBase" relationship="GENERALIZATION">
+      <point x="67.5" y="-14.0" />
+      <point x="1061.5" y="940.0" />
+      <point x="1374.0" y="940.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.print.attribute.standard.JobStateReasons" target="java.util.HashSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="3534.0" y="620.0" />
+      <point x="3434.0" y="620.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.ObjectListImpl" target="com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList" relationship="REALIZATION">
+      <point x="-40.5" y="-14.0" />
+      <point x="233.5" y="460.0" />
+      <point x="114.0" y="460.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.tools.javac.util.List" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2854.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.IORTemplateImpl" target="com.sun.corba.se.spi.ior.IORTemplate" relationship="REALIZATION">
+      <point x="45.5" y="-14.0" />
+      <point x="2759.5" y="940.0" />
+      <point x="2754.0" y="940.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArrayList" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="4054.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.ior.IdentifiableContainerBase" target="com.sun.corba.se.impl.ior.FreezableList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1374.0" y="720.0" />
+      <point x="1174.0" y="720.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractList" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="834.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.HashSet" relationship="GENERALIZATION">
+      <point x="-49.5" y="-14.0" />
+      <point x="3764.5" y="700.0" />
+      <point x="3534.0" y="700.0" />
+      <point x="3534.0" y="620.0" />
+      <point x="3434.0" y="620.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.IORTemplateImpl" target="com.sun.corba.se.spi.ior.IdentifiableContainerBase" relationship="GENERALIZATION">
+      <point x="-45.5" y="-14.0" />
+      <point x="2668.5" y="940.0" />
+      <point x="1374.0" y="940.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.ior.IORTemplate" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2754.0" y="720.0" />
+      <point x="2774.0" y="720.0" />
+      <point x="2774.0" y="540.0" />
+      <point x="2734.0" y="540.0" />
+      <point x="2734.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.SubList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1074.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.LSInputListImpl" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-42.25" y="-14.0" />
+      <point x="1811.75" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="sun.awt.util.IdentityArrayList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-52.5" y="-14.0" />
+      <point x="2361.5" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.NavigableSet" relationship="REALIZATION">
+      <point x="-36.0" y="-14.0" />
+      <point x="2618.0" y="740.0" />
+      <point x="2654.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.xs.LSInputList" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2254.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.IORTemplateListImpl" target="com.sun.corba.se.spi.ior.IORTemplateList" relationship="REALIZATION">
+      <point x="-52.5" y="-14.0" />
+      <point x="541.5" y="680.0" />
+      <point x="-46.0" y="680.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.EnumSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="3294.0" y="480.0" />
+      <point x="3054.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="-37.0" y="-14.0" />
+      <point x="3397.0" y="480.0" />
+      <point x="3054.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.tools.jdi.EventSetImpl" target="com.sun.jdi.event.EventSet" relationship="REALIZATION">
+      <point x="-38.0" y="-14.0" />
+      <point x="1196.0" y="620.0" />
+      <point x="394.0" y="620.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="jdk.jshell.DiagList" target="java.util.ArrayList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1754.0" y="740.0" />
+      <point x="1714.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.xs.datatypes.ByteList" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xalan.internal.xsltc.compiler.util.StringStack" target="java.util.Stack" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="374.0" y="940.0" />
+      <point x="494.0" y="940.0" />
+      <point x="494.0" y="880.0" />
+      <point x="714.0" y="880.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.ior.iiop.IIOPProfileTemplate" target="com.sun.corba.se.spi.ior.TaggedProfileTemplate" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="794.0" y="820.0" />
+      <point x="796.0" y="820.0" />
+      <point x="-58.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractSequentialList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2054.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.dv.util.ByteListImpl" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="36.5" y="-14.0" />
+      <point x="830.5" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.tools.jdi.EventSetImpl" target="java.util.ArrayList" relationship="GENERALIZATION">
+      <point x="38.0" y="-14.0" />
+      <point x="1272.0" y="740.0" />
+      <point x="1714.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.ior.FreezableList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1174.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.Collection" relationship="REALIZATION">
+      <point x="38.0" y="-14.0" />
+      <point x="1752.0" y="440.0" />
+      <point x="2154.0" y="440.0" />
+      <point x="2154.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.StringListImpl" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="39.0" y="-14.0" />
+      <point x="693.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.SortedSet" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2634.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.JumboEnumSet" target="java.util.EnumSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="3414.0" y="740.0" />
+      <point x="3294.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.dv.util.ByteListImpl" target="com.sun.org.apache.xerces.internal.xs.datatypes.ByteList" relationship="REALIZATION">
+      <point x="-36.5" y="-14.0" />
+      <point x="757.5" y="400.0" />
+      <point x="474.0" y="400.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.Collection" relationship="REALIZATION">
+      <point x="40.25" y="-14.0" />
+      <point x="3154.25" y="720.0" />
+      <point x="3894.0" y="720.0" />
+      <point x="3894.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.RegularEnumSet" target="java.util.EnumSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="sun.awt.util.IdentityArrayList" target="java.util.Collection" relationship="REALIZATION">
+      <point x="52.5" y="-14.0" />
+      <point x="2466.5" y="480.0" />
+      <point x="2774.0" y="480.0" />
+      <point x="2774.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.StringListImpl" target="com.sun.org.apache.xerces.internal.xs.StringList" relationship="REALIZATION">
+      <point x="-39.0" y="-14.0" />
+      <point x="615.0" y="420.0" />
+      <point x="274.0" y="420.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="sun.net.www.http.KeepAliveStreamCleaner" target="java.util.LinkedList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.imageio.spi.PartiallyOrderedSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="3714.0" y="480.0" />
+      <point x="3054.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="sun.security.x509.AttributeNameEnumeration" target="java.util.Vector" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="314.0" y="700.0" />
+      <point x="134.0" y="700.0" />
+      <point x="134.0" y="560.0" />
+      <point x="74.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="36.0" y="-14.0" />
+      <point x="2690.0" y="620.0" />
+      <point x="2814.0" y="620.0" />
+      <point x="2814.0" y="480.0" />
+      <point x="3054.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Collection" relationship="REALIZATION">
+      <point x="37.0" y="-14.0" />
+      <point x="3471.0" y="460.0" />
+      <point x="3754.0" y="460.0" />
+      <point x="3754.0" y="200.0" />
+      <point x="3054.0" y="200.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.xs.ShortList" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2074.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="sun.awt.util.IdentityLinkedList" target="java.util.AbstractSequentialList" relationship="GENERALIZATION">
+      <point x="-54.75" y="-14.0" />
+      <point x="2419.25" y="640.0" />
+      <point x="2414.0" y="640.0" />
+      <point x="2414.0" y="620.0" />
+      <point x="2054.0" y="620.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.orbutil.graph.Graph" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2934.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.util.LSInputListImpl" target="com.sun.org.apache.xerces.internal.xs.LSInputList" relationship="REALIZATION">
+      <point x="42.25" y="-14.0" />
+      <point x="1896.25" y="460.0" />
+      <point x="2254.0" y="460.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.XSModelImpl" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-38.0" y="-14.0" />
+      <point x="2216.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="jdk.internal.org.objectweb.asm.tree.analysis.SmallSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="3574.0" y="480.0" />
+      <point x="3054.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.orbutil.graph.GraphImpl" target="com.sun.corba.se.impl.orbutil.graph.Graph" relationship="REALIZATION">
+      <point x="-32.25" y="-14.0" />
+      <point x="2861.75" y="460.0" />
+      <point x="2934.0" y="460.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.util.RepositoryIdPool" target="java.util.Stack" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="494.0" y="880.0" />
+      <point x="714.0" y="880.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.impl.xs.PSVIErrorList" target="com.sun.org.apache.xerces.internal.xs.StringList" relationship="REALIZATION">
+      <point x="-38.0" y="-14.0" />
+      <point x="476.0" y="420.0" />
+      <point x="274.0" y="420.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.xs.StringList" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="274.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.ior.IORTemplateList" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-46.0" y="420.0" />
+      <point x="194.0" y="420.0" />
+      <point x="194.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.jmx.snmp.daemon.SendQ" target="java.util.Vector" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="474.0" y="700.0" />
+      <point x="134.0" y="700.0" />
+      <point x="134.0" y="560.0" />
+      <point x="74.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.ior.IOR" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-86.0" y="800.0" />
+      <point x="-166.0" y="800.0" />
+      <point x="-166.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.jdi.event.EventSet" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="394.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="3054.0" y="160.0" />
+      <point x="554.0" y="160.0" />
+      <point x="40.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xerces.internal.xs.XSNamespaceItemList" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2394.0" y="220.0" />
+      <point x="474.0" y="220.0" />
+      <point x="-40.0" y="14.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-38.0" y="-14.0" />
+      <point x="1676.0" y="480.0" />
+      <point x="834.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="sun.swing.BakedArrayList" target="java.util.ArrayList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1514.0" y="740.0" />
+      <point x="1714.0" y="740.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.AbstractSequentialList" relationship="GENERALIZATION">
+      <point x="-40.25" y="-14.0" />
+      <point x="3073.75" y="640.0" />
+      <point x="2414.0" y="640.0" />
+      <point x="2414.0" y="620.0" />
+      <point x="2054.0" y="620.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.RandomAccessSubList" target="java.util.SubList" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.NavigableSet" target="java.util.SortedSet" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="2654.0" y="540.0" />
+      <point x="2634.0" y="540.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0163356096316607" showDependencies="false" x="476.520373606015" y="231.31014149774433" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

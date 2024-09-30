@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.OutputStream</OriginalElement>
+  <nodes>
+    <node x="1002.0" y="646.0">com.sun.corba.se.impl.encoding.IDLJavaSerializationOutputStream</node>
+    <node x="879.0" y="966.0">com.sun.corba.se.spi.encoding.CorbaOutputObject</node>
+    <node x="-4.5" y="586.0">java.security.DigestOutputStream</node>
+    <node x="398.0" y="466.0">com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream</node>
+    <node x="778.0" y="106.0">java.io.Flushable</node>
+    <node x="900.5" y="586.0">org.omg.CORBA_2_3.portable.OutputStream</node>
+    <node x="126.5" y="646.0">java.util.zip.CheckedOutputStream</node>
+    <node x="696.5" y="166.0">java.io.Closeable</node>
+    <node x="1012.0" y="906.0">com.sun.corba.se.impl.encoding.EncapsOutputStream</node>
+    <node x="1000.0" y="1086.0">com.sun.corba.se.impl.encoding.TypeCodeOutputStream</node>
+    <node x="-157.5" y="466.0">javax.swing.text.rtf.AbstractFilter</node>
+    <node x="885.0" y="1146.0">com.sun.corba.se.impl.encoding.CDROutputObject</node>
+    <node x="53.0" y="466.0">com.sun.org.apache.xml.internal.security.utils.UnsyncByteArrayOutputStream</node>
+    <node x="883.0" y="786.0">com.sun.corba.se.impl.encoding.CDROutputStream</node>
+    <node x="900.5" y="406.0">org.omg.CORBA.portable.OutputStream</node>
+    <node x="1227.0" y="586.0">com.sun.corba.se.impl.encoding.CDROutputStream_1_0</node>
+    <node x="1165.5" y="406.0">com.sun.corba.se.impl.orbutil.HexOutputStream</node>
+    <node x="1282.0" y="466.0">java.io.ByteArrayOutputStream</node>
+    <node x="718.5" y="-14.0">java.lang.AutoCloseable</node>
+    <node x="1447.0" y="406.0">java.io.FileOutputStream</node>
+    <node x="-130.5" y="646.0">java.io.PrintStream</node>
+    <node x="1620.0" y="586.0">com.sun.corba.se.impl.io.OutputStreamHook</node>
+    <node x="1228.5" y="786.0">com.sun.corba.se.impl.encoding.CDROutputStream_1_1</node>
+    <node x="-127.5" y="786.0">java.rmi.server.LogStream</node>
+    <node x="760.5" y="286.0">java.io.OutputStream</node>
+    <node x="407.0" y="646.0">java.io.BufferedOutputStream</node>
+    <node x="1433.5" y="646.0">java.net.SocketOutputStream</node>
+    <node x="1615.0" y="466.0">java.io.ObjectOutputStream</node>
+    <node x="549.5" y="586.0">java.util.zip.DeflaterOutputStream</node>
+    <node x="1004.0" y="466.0">com.sun.corba.se.impl.encoding.CDROutputStreamBase</node>
+    <node x="1625.0" y="786.0">com.sun.corba.se.impl.io.IIOPOutputStream</node>
+    <node x="1227.0" y="966.0">com.sun.corba.se.impl.encoding.CDROutputStream_1_2</node>
+    <node x="281.0" y="406.0">java.io.FilterOutputStream</node>
+    <node x="702.0" y="646.0">java.io.DataOutputStream</node>
+    <node x="599.0" y="406.0">java.io.PipedOutputStream</node>
+    <node x="273.5" y="586.0">java.util.zip.InflaterOutputStream</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.sun.corba.se.impl.encoding.TypeCodeOutputStream" target="com.sun.corba.se.impl.encoding.EncapsOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.zip.DeflaterOutputStream" target="java.io.FilterOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="660.0" y="560.0" />
+      <point x="380.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="760.0" y="140.0" />
+      <point x="759.25" y="140.0" />
+      <point x="-40.75" y="14.0" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="840.0" y="240.0" />
+      <point x="760.0" y="240.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.PrintStream" target="java.io.Closeable" relationship="REALIZATION">
+      <point x="-35.25" y="-14.0" />
+      <point x="-95.25" y="620.0" />
+      <point x="-180.0" y="620.0" />
+      <point x="-180.0" y="260.0" />
+      <point x="760.0" y="260.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.net.SocketOutputStream" target="java.io.FileOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xml.internal.security.utils.UnsyncBufferedOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="540.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="javax.swing.text.rtf.AbstractFilter" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-80.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.zip.InflaterOutputStream" target="java.io.FilterOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.PipedOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="700.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.io.OutputStreamHook" target="java.io.ObjectOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.BufferedOutputStream" target="java.io.FilterOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="520.0" y="560.0" />
+      <point x="380.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.FileOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1540.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.rmi.server.LogStream" target="java.io.PrintStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.zip.CheckedOutputStream" target="java.io.FilterOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="240.0" y="560.0" />
+      <point x="380.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Flushable" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.ObjectOutputStream" target="java.lang.AutoCloseable" relationship="REALIZATION">
+      <point x="52.5" y="-14.0" />
+      <point x="1772.5" y="360.0" />
+      <point x="940.0" y="360.0" />
+      <point x="940.0" y="80.0" />
+      <point x="840.75" y="80.0" />
+      <point x="40.75" y="14.0" />
+    </edge>
+    <edge source="org.omg.CORBA_2_3.portable.OutputStream" target="org.omg.CORBA.portable.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.encoding.CDROutputStream" target="org.omg.CORBA_2_3.portable.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.security.DigestOutputStream" target="java.io.FilterOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="100.0" y="560.0" />
+      <point x="380.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.PrintStream" target="java.io.FilterOutputStream" relationship="GENERALIZATION">
+      <point x="35.25" y="-14.0" />
+      <point x="-24.75" y="560.0" />
+      <point x="380.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.io.IIOPOutputStream" target="com.sun.corba.se.impl.io.OutputStreamHook" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.orbutil.HexOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1260.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.encoding.CDROutputObject" target="com.sun.corba.se.spi.encoding.CorbaOutputObject" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.encoding.IDLJavaSerializationOutputStream" target="com.sun.corba.se.impl.encoding.CDROutputStreamBase" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1160.0" y="520.0" />
+      <point x="1120.0" y="520.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.FilterOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="380.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.org.apache.xml.internal.security.utils.UnsyncByteArrayOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="200.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.ObjectOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="-52.5" y="-14.0" />
+      <point x="1667.5" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="org.omg.CORBA.portable.OutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="980.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.spi.encoding.CorbaOutputObject" target="com.sun.corba.se.impl.encoding.CDROutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.ByteArrayOutputStream" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1400.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.DataOutputStream" target="java.io.FilterOutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="800.0" y="560.0" />
+      <point x="380.0" y="560.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.encoding.EncapsOutputStream" target="com.sun.corba.se.impl.encoding.CDROutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1120.0" y="880.0" />
+      <point x="980.0" y="880.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.encoding.CDROutputStream_1_0" target="com.sun.corba.se.impl.encoding.CDROutputStreamBase" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1340.0" y="560.0" />
+      <point x="1160.0" y="560.0" />
+      <point x="1160.0" y="520.0" />
+      <point x="1120.0" y="520.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.encoding.CDROutputStream_1_2" target="com.sun.corba.se.impl.encoding.CDROutputStream_1_1" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.encoding.CDROutputStreamBase" target="java.io.OutputStream" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1120.0" y="380.0" />
+      <point x="840.0" y="380.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.sun.corba.se.impl.encoding.CDROutputStream_1_1" target="com.sun.corba.se.impl.encoding.CDROutputStream_1_0" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7662037037037037" showDependencies="false" x="830.6646525679758" y="1009.0181268882175" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
